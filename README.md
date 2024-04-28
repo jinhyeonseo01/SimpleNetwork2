@@ -1,7 +1,11 @@
 # Simple Network 2
 
 - **C# asynchronous Multi-Core server/client socket library based on IOCP - EAP SocketAsyncEventArgs supporting TCP/UDP.**
-- **C# Tcp/Udp를 지원하는 IOCP - EAP SocketAsyncEventArgs, TaskPool 기반 비동기 멀티코어 서버/클라 소켓 라이브러리.**
+  C# Tcp/Udp를 지원하는 IOCP - EAP SocketAsyncEventArgs, TaskPool 기반 비동기 멀티코어 서버/클라 소켓 라이브러리.
+- **A structure optimized for the GC to minimize memory leaks as much as possible.**
+  메모리 누수를 최대한 제거해서 GC에 최적화된 구조.
+<br/><br/>
+
 ### *2018.08.01*
 * * *
 ## Examples
