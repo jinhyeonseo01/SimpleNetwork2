@@ -14,15 +14,16 @@ public class SampleServer
     {
         new SampleServer();
     }
+
+    StandardServer server;
+    StandardClient client;
+
     public SampleServer()
     {
         server = new StandardServer();
         client = new StandardClient();
-        client.client.Close();
-        while (!Console.ReadLine().Trim().ToLower().Equals("e"))
-        {
-            
-        }
+
+        
         server.close();
         client.client.Close();
     }
@@ -58,8 +59,7 @@ public class SampleServer
             server.Start();
         }
 
-        public void DataToss(SNServerClientSocket NowSocket, SNBuffer Read, SNBuffer My, SNBuffer Other)
-        {
+        public void DataToss(SNServerClientSocket NowSocket, SNBuffer Read, SNBuffer My, SNBuffer Other) {
             int packetId = Read.GetInt();
             switch (packetId)
             {
@@ -91,28 +91,23 @@ public class SampleServer
             }
         }
 
-        public void CreateSpace()
-        {
+        public void CreateSpace() {
             
         }
 
-        public void InClient(SNServerClientSocket clientIn)
-        {
+        public void InClient(SNServerClientSocket clientIn) {
             Console.WriteLine($"Client Enter : {clientIn.socket.RemoteEndPoint}");
         }
 
-        public void Loop(List<SNServerClientSocket> clients)
-        {
+        public void Loop(List<SNServerClientSocket> clients) {
             
         }
 
-        public void OutClient(SNServerClientSocket clientOut)
-        {
+        public void OutClient(SNServerClientSocket clientOut) {
             Console.WriteLine($"Client Exit : ");
         }
 
-        public void close()
-        {
+        public void close() {
             server.Close();
         }
     }
