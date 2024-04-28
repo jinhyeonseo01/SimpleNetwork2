@@ -1,7 +1,0 @@
-D:\File\Visual Studio Project\SimpleNetwork2\SimpleNetwork2\bin\Debug\SimpleNetwork2.exe.config
-D:\File\Visual Studio Project\SimpleNetwork2\SimpleNetwork2\bin\Debug\SimpleNetwork2.exe
-D:\File\Visual Studio Project\SimpleNetwork2\SimpleNetwork2\bin\Debug\SimpleNetwork2.pdb
-D:\File\Visual Studio Project\SimpleNetwork2\SimpleNetwork2\obj\Debug\SimpleNetwork2.csprojAssemblyReference.cache
-D:\File\Visual Studio Project\SimpleNetwork2\SimpleNetwork2\obj\Debug\SimpleNetwork2.csproj.CoreCompileInputs.cache
-D:\File\Visual Studio Project\SimpleNetwork2\SimpleNetwork2\obj\Debug\SimpleNetwork2.exe
-D:\File\Visual Studio Project\SimpleNetwork2\SimpleNetwork2\obj\Debug\SimpleNetwork2.pdb
