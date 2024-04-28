@@ -24,10 +24,12 @@ StandardClient client;
 public SampleServer()
 {
     server = new StandardServer();
+    // Wait Server Socket Open Time
     client = new StandardClient();
-
-    //Wait Server Close Event
     
+    // Use Network
+    // Wait Server Close Event
+
     server.close();
     client.client.Close();
 }
